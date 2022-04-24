@@ -1,4 +1,5 @@
 :root{
+    --primary-color: #ee4d2d;
     --white-color:#fff;
     --black-color:#000;
     --text-color:#333
@@ -28,4 +29,16 @@ html{
 .gird__row{
     display: flex;
     flex-wrap: wrap;
+}
+
+/* animation */
+@keyframes down{
+    from{
+        opacity: 0.4;
+        transform: translateY(-30px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
 }

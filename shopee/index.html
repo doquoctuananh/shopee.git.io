@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/main.css">
     
-    <title>Document</title>
+    <title>shopee</title>
 </head>
 <body>
     <div class="app">
@@ -18,7 +18,21 @@
             <div class="gird">               
                 <nav class="header__navbar">
                     <ul class="header__navbar-list">
-                        <li class="header__navbar-item header__navbar-item--spearate">Vào của hàng trên ứng dụng f8-shop</li>
+                        <li class="header__navbar-item header__navbar-item--has-qr header__navbar-item--spearate">
+                            Vào của hàng trên ứng dụng f8-shop
+                            <!-- header QR Code -->
+                            <div class="header__qr">
+                                <img src="./assets/img/qrcode.png" alt="" class="header__qr-img">
+                                <div class="header__qr-apps">
+                                    <a href="" class="header__qr-link">
+                                        <img src="./assets/img/google_play.png" alt="google play" class="header__qr-dowloads-img">
+                                    </a>
+                                    <a href="" class="header__qr-link">
+                                        <img src="./assets/img/app_store.png" alt="app store" class="header__qr-dowloads-img">
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
                         <li class="header__navbar-item">
                             <span class="header__navbar-title--no-pointer">Kết nối</span>
                             <a href="" class="header__navbar-icon-link"><i class="header__navbar-icon fa-brands fa-facebook"></i></a>
@@ -26,11 +40,51 @@
                         </li>
                     </ul>
                     <ul class="header__navbar-list">
-                        <li class="header__navbar-item">
+                        <li class="header__navbar-item header__navbar-item--has-notify">
                             <a href="" class="header__navbar-item-link">
                                 <i class="header__navbar-icon fa-solid fa-bell"></i>
                                 Thông báo
                             </a>
+                            <!-- header notify -->
+                            <div class="header__notify">
+                                <header class="header__notify-header">
+                                    <h3>THÔNG BÁO MỚI NHẬN</h3>
+                                </header>
+                                <ul class="header__notify-list">
+                                    <li class="header__notify-item header__notify-item--viewed">
+                                        <a href="" class="header__notify-link">
+                                            <img src="https://cf.shopee.vn/file/d4c8f85458cc48fbedb858612560d652_tn" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Xác thực chính xác các nguồn gốc sản phẩm</span>
+                                                <span class="header__notify-descriotion">hidden tag là công nghẹ xác thuc hang chính hãng tốt nhất</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-item">
+                                        <a href="" class="header__notify-link">
+                                            <img src="https://cf.shopee.vn/file/d4c8f85458cc48fbedb858612560d652_tn" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Mỹ phẩm io chính hãng</span>
+                                                <span class="header__notify-descriotion">Mô tả mỹ phẩm chính hãn</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-item">
+                                        <a href="" class="header__notify-link">
+                                            <img src="https://cf.shopee.vn/file/d4c8f85458cc48fbedb858612560d652_tn" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Mỹ phẩm io chính hãng</span>
+                                                <span class="header__notify-descriotion">Mô tả mỹ phẩm chính hãn</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+
+                                <footer class="header__notify-footer">
+                                    <a href="" class="header__notify-footer-btn">Xem tất cả</a>
+                                </footer>
+                            </div>
+                            <!-- end notify -->
                         </li>
                         <li class="header__navbar-item">
                             <a href="" class="header__navbar-item-link">
